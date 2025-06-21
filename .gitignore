@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# Coverage (from Jest or testing)
+coverage/
+
+# Optional VSCode settings
+.vscode/
+
+# Optional MongoDB data dump
+dump/
+
+# PM2 logs (if you're using PM2 for process management)
+pids
+*.pid
+*.seed
